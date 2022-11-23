@@ -3,11 +3,12 @@
 
 
 * {
-    list-style: none;
+   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
 }
 
 body {
@@ -34,6 +35,7 @@ body {
     flex-direction: row;
     align-items: center;
     box-sizing: 25%;
+
     }
 
 li{ 
@@ -54,8 +56,27 @@ a{
 }
 
 footer {
-
+    display: flex;
     background-color: black;
     height: 10vh;
     color: white;
+    justify-content:space-around;
+    align-items: center;
+    
+    
 }
+.fa-sharp fa-solid fa-circle{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+  .countain{
+        display:flex;
+        flex-direction: column;
+        
+    }
+   
+    
