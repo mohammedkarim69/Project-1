@@ -11,14 +11,11 @@
     list-style-type: none;
 }
 
-body {
+
+.top {
     background-image: url(ASSETS/IMAGE\ RESTAU.jpg);
     background-size: cover;
     
-}
-
-
-.top {
     
    display: flex;
     align-items: center;
@@ -48,7 +45,7 @@ li{
 
 a{
     color: white;
-    font-size: ;
+    
 }
 
 li a:hover{
@@ -89,7 +86,8 @@ footer {
         flex-direction: column;
         margin-left: 5%;
         
-        
-    }
+        }
    
+    /* *********************CSS a propos********************/
+
     
