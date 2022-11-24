@@ -14,17 +14,21 @@
 body {
     background-image: url(ASSETS/IMAGE\ RESTAU.jpg);
     background-size: cover;
+    
 }
+
 
 .top {
     
-    display: flex;
+   display: flex;
     align-items: center;
     margin-bottom: 90vh;
     justify-content: space-between;
     box-sizing: 50%;
     
 }
+
+
 .espace {
     box-sizing: 25%;
 }
@@ -44,16 +48,27 @@ li{
 
 a{
     color: white;
+    font-size: ;
 }
+
+li a:hover{
+
+    color: rgba(169, 121, 49, 1);
+    transition: 0.5s;
+}
+
+
+
+
+
 .top .mk
 { 
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     padding-left: 2vw;
     
-
-    
 }
+
 
 footer {
     display: flex;
