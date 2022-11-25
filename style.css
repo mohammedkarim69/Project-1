@@ -95,15 +95,15 @@ main h1{
 }
 .photohaut img{
     /*margin-left: -100vw;*/
-    width: 40vw;  
-    height: 15vh;
+    width:  25vw;  
+    height: 20vh;
     animation-name: slideIn;
     animation-duration: 5s;
     animation-iteration-count:1 ;
   }
   @keyframes slideIn {
     0% {
-      transform: translate(0px, 0px);
+      transform: translate(-100vw, 0px);
     }
     50% {
       transform: translate(20vw, 0px);
@@ -116,15 +116,15 @@ main h1{
   
 .photobas img{
    /* margin-left: -100vw;*/
-    width: 40vw;
-    height: 15vh;
+    width: 25vw;
+    height: 20vh;
     animation-name: slideIn;
     animation-duration: 5s;
     animation-iteration-count:1 ;
   }
   @keyframes slideIn {
     0% {
-      transform: translate(0px, 0px);
+      transform: translate(-100vh, 0px);
     }
     50% {
       transform: translate(20vw, 0px);
