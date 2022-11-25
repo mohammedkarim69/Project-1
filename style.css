@@ -86,25 +86,57 @@ main h1{
 
 .blocgauche{
     display: flex;
-    background-color: rgb(47, 142, 64);
     width: 50vw;
     height: 60vh;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    
-    
-    
-    
+       
 }
 .photohaut img{
-    
-    width: 60vh;  
+    /*margin-left: -100vw;*/
+    width: 40vw;  
     height: 15vh;
+    animation-name: slideIn;
+    animation-duration: 5s;
+    animation-iteration-count:1 ;
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(20vw, 0px);
+    }
+    100% {
+      transform: translate(0px 0px);
+    }
+  }
     
-    
-} 
+  
 .photobas img{
-    width: 60vh;
-    height: 15vh; 
-}
+   /* margin-left: -100vw;*/
+    width: 40vw;
+    height: 15vh;
+    animation-name: slideIn;
+    animation-duration: 5s;
+    animation-iteration-count:1 ;
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(20vw, 0px);
+    }
+    100% {
+      transform: translate(0vw, 0px);
+    }
+  }
+    
+  
+
+
+
+
+
