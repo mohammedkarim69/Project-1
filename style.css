@@ -73,6 +73,7 @@ footer {
     /* *********************CSS a propos********************/
 
 main {
+  
 
     height: 70vh;
 
@@ -83,8 +84,17 @@ main h1{
     padding-top: 2rem;
     color:rgba(169, 121, 49, 1)
 }
+.lesdeuxblocs{
+  display: flex;
+  
+  height: 60vh;
+  width: 100%;
+}
+
+
 
 .blocgauche{
+  
     display: flex;
     width: 50vw;
     height: 60vh;
@@ -136,7 +146,31 @@ main h1{
     
   
 
+  .blocdroit{
+    background-color: red;
+    color: black;
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
+  .texthaut{
 
+    color: black;
+    width:  35vw;  
+    height: 30vh;
+    font-size: 16px;
+  }
+       
+  .textbas{
+
+  color: black;
+  width:  35vw;  
+  height: 30vh;
+  font-size: 16px;
+  }
 
 
