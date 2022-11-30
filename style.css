@@ -261,4 +261,31 @@ h3{
 
 
 
+
+
 /*********************************************CSS PAGE 4 SERVICES**************************************************************/
+.services{
+
+  background-color: blue;
+  height:15vh ;
+  
+}
+
+.imgservices{
+
+  background-color: red;
+  display: flex;
+  height: 30vh;
+  justify-content: space-around;
+  align-items:space-around ;
+}
+
+.pmenu img{
+  height: 25vh;
+  width: 33vw;
+  
+}
+.entreprise{
+background-color: green;
+  height: 15vh;
+}
