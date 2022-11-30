@@ -233,10 +233,11 @@ h2{
 
 p{
   text-align: center;
+  color: rgba(169, 121, 49, 1);
 }
 h3{
   text-align: center;
-  color: black;
+  color: rgba(169, 121, 49, 1);
   font-size: 16px;
 }
 
@@ -247,6 +248,15 @@ h3{
   flex-direction: column;
   justify-content: space-between;
   height: 20vh;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.apparition{
+
+  visibility: visible;
+  opacity: 1;
 }
 /*
 .hoverentree:hover , .hoverplats:hover,.hoverdessert:hover{
