@@ -68,6 +68,7 @@ footer {
     margin-left: 16px;
     display:flex;
     flex-direction: column;
+    
 }
    
     /* *********************CSS a propos********************/
@@ -177,3 +178,87 @@ p{
   color: black;
 
 }
+
+/***************************************************CSS PAGE 3 MENU***********************************************************/
+
+.blocphoto {
+  
+  display: flex;
+  width: 1OOvw;
+  height: 70vh;
+  justify-content: space-around;
+  padding-top: 2vh;
+  
+
+
+}
+/*
+.menu{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  
+
+}
+*/
+.dimension {
+  
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+   
+  flex-direction: column;
+  justify-content:space-around;
+  
+  
+  
+
+}
+
+
+
+img{
+width: 95%;
+height: 15vh;
+border-radius: 5px;
+ /* height: 20vh;
+  width: 30vw;*/
+}
+
+h2{
+  text-align: center;
+  color: black;
+}
+
+p{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+.hoverentree , .hoverplats,.hoverdessert{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+}
+/*
+.hoverentree:hover , .hoverplats:hover,.hoverdessert:hover{
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+
+}
+
+
+
+
+/*********************************************CSS PAGE 4 SERVICES**************************************************************/
