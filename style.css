@@ -415,14 +415,15 @@ color: black;
 
 .navlistmobile{
   
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  background: black;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(10px);
   position:fixed;
-  top: -100vh;
+  top: -85vh;
   left: 0;
   width:100%;
   transition: top 0.5s ;
@@ -431,9 +432,10 @@ color: black;
 
 }
 .navlistmobile a {
-  background: black;
+  
+  
   width:100%;
-  color:rgba(169, 121, 49, 1);
+  color:black;
   font-weight: 900;
 
 }
@@ -458,7 +460,7 @@ right: 15px
 
 .icon-visible {
 
-  color:rgba(169, 121, 49, 1) ;
+  color:rgb(14, 13, 12) ;
 }
 
 
