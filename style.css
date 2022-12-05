@@ -440,7 +440,7 @@ color: black;
 
 }
 .navbarmobile i{
-  z-index: 999;
+z-index: 999;
 font-size: 40px;
 position: fixed;
 top: 10px;
@@ -519,7 +519,17 @@ color: rgb(161, 157, 150);
         display: none;
       }
 
-      
+
+      .blocgauche{
+        width: 100vh;
+        
+      }
+
+
+.photohaut img{
+  width:75vw
+  
+}
 
 
 .photobas{
@@ -528,12 +538,46 @@ color: rgb(161, 157, 150);
       }
 
 
-/*
-footer {
-position: fixed;
-width: 100vh;
 
-}*/
+
+.point-container,.countain {
+
+  display: none;
+}
+
+footer{
+position: fixed;
+  justify-content: center;
+  width: 100%;
+}
+
+.blocphoto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*overflow: scroll;*/
+  
+}
+
+h2{
+
+  font-size: 1.2rem;
+}
+
+.dimension{
+
+  width: 80%;
+}
+
+.body{
+
+  height: 100vh;
+}
+
+.header-min{
+  position: fixed;
+}
 
     }
   
