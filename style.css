@@ -391,7 +391,7 @@ iframe {
 }
 .navlistmobile a {
   width: 100%;
-  color: black;
+  color :black;
   font-weight: 900;
 }
 .navbarmobile i {
@@ -510,6 +510,8 @@ iframe {
   header {
     position: fixed;
     height: 10vh;
+    /*top: 100;*/
+    width: 100%;
   }
   .bloccentral,
   .titre,
@@ -531,4 +533,20 @@ iframe {
   .entreprise{
     padding-top: 3rem;
   }
+
+
+  .parent{
+
+    height: 50vh;
+  }
+  .iframe1{
+    margin-top: 25vh;
+  }
+
+
+
+.iframe1 >iframe{
+  margin-top: 15vh;
+}
+
 }
