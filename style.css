@@ -112,6 +112,7 @@ main h1 {
   /*margin-left: -100vw;*/
   width: 25vw;
   height: 20vh;
+  object-fit: cover;
   animation-name: slideIn;
   animation-duration: 5s;
   animation-iteration-count: 1;
@@ -135,6 +136,7 @@ main h1 {
   /* margin-left: -100vw;*/
   width: 25vw;
   height: 20vh;
+  object-fit: cover;
   /*animation-name: slideIn;
     animation-duration: 5s;
     animation-iteration-count:1 ;*/
@@ -218,6 +220,7 @@ img {
   width: 95%;
   height: 15vh;
   border-radius: 5px;
+  object-fit: cover;
   /* height: 20vh;
   width: 30vw;*/
 }
@@ -296,6 +299,7 @@ p {
   height: 25vh;
   justify-content: space-around;
   align-items: space-around;
+  object-fit: cover;
 }
 
 .pmenu img {
@@ -456,18 +460,16 @@ iframe {
     flex-direction: column;
     align-items: center;
   }
-  .textbas {
-    display: none;
+  
+  .texthaut,.textbas {
+    width: 75vw;
+    height: 10vh;
   }
 
-  .blocgauche {
-    width: 100vh;
-  }
-
+.photohaut img, .photobas img {
+  width: 80vw;
+}
  
-  .photobas {
-    display: none;
-  }
 
   .point-container,
   .countain {
@@ -540,7 +542,7 @@ iframe {
     height: 50vh;
   }
   .iframe1{
-    margin-top: 25vh;
+    margin-top: 15vh;
   }
 
 
@@ -549,4 +551,14 @@ iframe {
   margin-top: 15vh;
 }
 
+.contact,.text1{
+  padding-top: 20vh;
+  
 }
+
+.pcontact,.pcontacts{
+  font-size: 0.50rem;
+}
+
+}
+
