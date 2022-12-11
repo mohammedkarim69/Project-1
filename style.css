@@ -255,7 +255,7 @@ p {
   height: 20vh;
   visibility: hidden;
   opacity: 0;
-  transition: 0.8s;
+  transition: 0.1s;
 }
 
 .apparition {
@@ -440,10 +440,12 @@ iframe {
   p,
   h3 {
     font-size: 0.65rem;
+   /* padding-top: 1rem;*/
   }
   .para1 > p,
   .para2 > p {
     font-size: 0.65rem;
+    
   }
 }
 
@@ -455,7 +457,10 @@ iframe {
   nav ul {
     display: none;
   }
+.homepage header {
 
+  height: 95vh;
+}
   .lesdeuxblocs {
     flex-direction: column;
     align-items: center;
@@ -525,15 +530,17 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 4rem;
   }
 
   .pmenu img{
     height: 10vh;
     width: 50vw;
+    margin: 0.5rem 0;
   }
 
   .entreprise{
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 
 
