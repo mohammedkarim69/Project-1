@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Felipa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.homepage {
+  height: 100vh;
+  /*  width: 100vw;*/
+}
+
+.homepage header {
+  height: 85vh;
+}
+
+header {
+  background-image: url(ASSETS/IMAGE\ RESTAU.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-family: "Lora";
+}
+
+.mk {
+  font-size: 1.5rem;
+}
+
+nav {
+  width: 60vw;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+  font-size: 0.9rem;
+}
+
+nav ul li a:hover {
+  color: rgba(169, 121, 49, 1);
+  transition: 0.5s;
+}
+
+footer {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-family: "Lora";
+  padding: 0 1.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.point-container {
+  display: flex;
+}
+
+.countain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 1.5rem;
+}
+.countain > p {
+  font-family: "Lora";
+  color: white;
+}
+
+/* *********************CSS a propos********************/
+
+main {
+  height: 70vh;
+}
+
+main h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: rgba(169, 121, 49, 1);
+}
+
+.lesdeuxblocs {
+  display: flex;
+  color: black;
+  height: 60vh;
+  width: 100%;
+}
+
+.blocgauche {
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.photohaut img {
+  /*margin-left: -100vw;*/
+  width: 25vw;
+  height: 20vh;
+  object-fit: cover;
+  animation-name: slideIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(-100vw, 0px);
+  }
+
+  50% {
+    transform: translate(0vw, 0px);
+  }
+
+  100% {
+    transform: translate(0px 0px);
+  }
+}
+
+.photobas img {
+  /* margin-left: -100vw;*/
+  width: 25vw;
+  height: 20vh;
+  object-fit: cover;
+  /*animation-name: slideIn;
+    animation-duration: 5s;
+    animation-iteration-count:1 ;*/
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(100vh, 0px);
+  }
+
+  50% {
+    transform: translate(0vw, 0px);
+  }
+
+  100% {
+    transform: translate(0vw, 0px);
+  }
+}
+
+.blocdroit {
+  color: black;
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.texthaut {
+  margin-top: 60px;
+  width: 35vw;
+  height: 30vh;
+  font-size: 1rem;
+}
+
+.textbas {
+  margin-top: 60px;
+  width: 35vw;
+  height: 30vh;
+  font-size: 1rem;
+  animation-name: slideIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+p {
+  color: black;
+}
+
+/***************************************************CSS PAGE 3 MENU***********************************************************/
+
+.blocphoto {
+  display: flex;
+  width: 1OOvw;
+  height: 70vh;
+  justify-content: space-around;
+  padding-top: 2vh;
+}
+
+/*
+.menu{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  
+
+}
+*/
+.dimension {
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+img {
+  width: 95%;
+  height: 15vh;
+  border-radius: 5px;
+  object-fit: cover;
+  /* height: 20vh;
+  width: 30vw;*/
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  color: rgba(169, 121, 49, 1);
+  font-size: 16px;
+  font-family: "Lora";
+}
+
+p {
+  font-family: "felipa";
+}
+
+.hoverentree,
+.hoverplats,
+.hoverdessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.apparition {
+  /*visibility: visible;*/
+  visibility: hidden;
+  opacity: 1;
+}
+.apparitionmobile {
+  visibility: visible;
+  opacity: 1;
+  padding-bottom: 15vh;
+}
+.apparitiondessert {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+.hoverentree:hover , .hoverplats:hover,.hoverdessert:hover{
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+
+}
+
+
+/*********************************************CSS PAGE 4 SERVICES**************************************************************/
+
+.services {
+  /*background-color: blue;*/
+  height: 15vh;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.imgservices {
+  /*background-color: red;*/
+  display: flex;
+  height: 25vh;
+  justify-content: space-around;
+  align-items: space-around;
+  object-fit: cover;
+}
+
+.pmenu img {
+  height: 25vh;
+  width: 33vw;
+}
+
+.entreprise {
+  /*background-color: green;*/
+  height: 15vh;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+/**********************************************page 5***********************************************/
+
+.parent {
+  display: grid;
+  grid-template-columns: 10vw 1fr 1fr 10vw;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.titre {
+  grid-area: 1 / 1 / 2 / 5;
+
+  height: 10vh;
+}
+
+.contact {
+  grid-area: 2 / 2 / 3 / 3;
+
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text1 {
+  grid-area: 2 / 3 / 3 / 4;
+
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.iframe1 {
+  grid-area: 3 / 2 / 4 / 4;
+
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.blocvide {
+  grid-area: 4 / 1 / 5 / 3;
+  height: 2vh;
+}
+
+.pcontact {
+  font-family: color black;
+}
+
+.pcontacts {
+  font-family: "Lora";
+  color: black;
+} /******************************************RESPONSIVE*************************************************************/
+
+.navlistmobile {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: -90vh;
+  left: 0;
+  width: 100%;
+  transition: top 0.5s;
+}
+.navlistmobile a {
+  width: 100%;
+  color :black;
+  font-weight: 900;
+}
+.navbarmobile i {
+  z-index: 999;
+  font-size: 40px;
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  color: rgb(161, 157, 150);
+}
+
+.navbarmobile {
+  display: none;
+}
+
+.list-visible {
+  top: 0;
+}
+
+.icon-visible {
+  color: rgb(14, 13, 12);
+}
+
+@media screen and (max-width: 1000px) {
+  .mk {
+    font-size: 1rem;
+  }
+
+  nav ul li {
+    font-size: 0.66rem;
+  }
+
+  .texthaut,
+  .textbas {
+    font-size: 0.65rem;
+  }
+
+  footer {
+    font-size: 0.65rem;
+  }
+
+  p,
+  h3 {
+    font-size: 0.65rem;
+   /* padding-top: 1rem;*/
+  }
+  .para1 > p,
+  .para2 > p {
+    font-size: 0.65rem;
+    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbarmobile {
+    display: initial;
+  }
+
+  nav ul {
+    display: none;
+  }
+.homepage header {
+
+  height: 95vh;
+}
+  .lesdeuxblocs {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .texthaut,.textbas {
+    width: 75vw;
+    height: 10vh;
+  }
+
+.photohaut img, .photobas img {
+  width: 80vw;
+}
+ 
+
+  .point-container,
+  .countain {
+    display: none;
+  }
+
+  footer {
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    height: 10vh;
+  }
+
+  .blocphoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    overflow: scroll;
+    padding-bottom: 15vh;
+    padding-top: 12vh;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .dimension {
+    height: 15vh;
+    width: 80%;
+    margin-top: 7rem;
+  }
+
+  .body {
+    height: 100vh;
+  }
+
+  header {
+    position: fixed;
+    height: 10vh;
+    /*top: 100;*/
+    width: 100%;
+  }
+  .bloccentral,
+  .titre,
+  main h1 {
+    padding-top: 10vh;
+  }
+
+  .imgservices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  .pmenu img{
+    height: 10vh;
+    width: 50vw;
+    margin: 0.5rem 0;
+  }
+
+  .entreprise{
+    padding-top: 5rem;
+  }
+
+
+  .parent{
+
+    height: 50vh;
+  }
+  .iframe1{
+    margin-top: 15vh;
+  }
+
+
+
+.iframe1 >iframe{
+  margin-top: 15vh;
+}
+
+.contact,.text1{
+  padding-top: 20vh;
+  
+}
+
+.pcontact,.pcontacts{
+  font-size: 0.50rem;
+}
+
+}
+
